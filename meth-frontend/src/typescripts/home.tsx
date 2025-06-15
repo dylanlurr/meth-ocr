@@ -16,7 +16,7 @@ const Home = () => {
         <Navigation />
       </div>
       
-      <main className="relative z-10 px-4 py-4 pt-20 pb-0">
+      <main className="relative z-10 flex-grow flex items-center justify-center">
         <div className="container mx-auto max-w-7xl">
           <FileUploader />
         </div>

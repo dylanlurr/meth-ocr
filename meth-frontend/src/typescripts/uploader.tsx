@@ -517,7 +517,7 @@ const FileUploader = () => {
   };
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-5xl mx-auto mt-10">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-5xl mx-auto">
       <div className="bg-gray-900/50 border border-gray-800 backdrop-blur-sm rounded-lg flex flex-col">
         <div className="p-4 flex-1 flex flex-col">
           <div className="flex items-center justify-between mb-3">

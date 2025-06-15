@@ -127,7 +127,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 from werkzeug.utils import secure_filename
-from scripts.equation_processing import HandwrittenEquationProcessor
+from equation_processing import HandwrittenEquationProcessor
 import matplotlib
 matplotlib.use("Agg") 
 import re
